@@ -1,5 +1,5 @@
-%hook NLSearchBar
--(id)initWithFrame:(CGRect)arg1{
+%hook NLSearchViewController
+-(id)searchBar{
   return nil;
 }
 %end
